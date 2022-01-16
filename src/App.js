@@ -53,7 +53,24 @@ function App() {
         </div>
 
         <div className="section-two">
-          <h1>Section Two</h1>
+          <div className="description">
+            <p>Tip Amount <br /> <span>/ person</span></p>
+          
+            <div className="tip-value">$0.00</div>
+          </div>
+
+          <br />
+
+          <div className="description">
+            <p>Total <br /> <span>/ person</span></p>
+          
+            <div className="tip-value">$0.00</div>
+          </div>
+
+          <div className="reset-button">
+            <button>RESET</button>
+          </div>
+
         </div>
 
       </div>

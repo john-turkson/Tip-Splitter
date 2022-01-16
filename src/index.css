@@ -149,11 +149,53 @@ body {
 }
 
 .section-two {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding-block : 50px 20px;
+  padding-inline : 20px;
   background-color: var(--Very-dark-cyan);
-  margin: 26px;
-  border-radius: 16px;
+  margin: 18px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+
+.description > p  {
+  font-size: 18px;
+}
+
+.description > div {
+  font-size: 38px;
+  color: var(--primary);
+} 
+
+.reset-button {
+  display: flex;
+  padding-top: 4.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset-button button {
+  width: 100%;
+  padding: 4px;
+  margin: 0 8px 0 8px;
+  border: none;
+  overflow: none;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-radius: 4px;
+  background-color: var(--Dark-grayish-cyan-200);
+  color: var(--Very-dark-cyan);
+  transition: all 0.3s;
+}
+
+.reset-button button:hover {
+  background-color: var(--secondary);
 }
